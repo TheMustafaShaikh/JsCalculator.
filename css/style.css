@@ -1,0 +1,138 @@
+body {
+    background-color: #1e2326;
+}
+
+#heading {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main-cal {
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    text-align: center;
+    width: 200px;
+    border-color: none;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px black;
+}
+
+#input-values {
+    width: 98%;
+    border: 1px solid white;
+}
+
+#total-output {
+    width: 98%;
+    border: 1px solid white;
+}
+
+#clear {
+    width: 100%;
+    background-color: #1e2326;
+    color: white;
+    padding: 10px;
+    border: 1px solid #303538;
+    font-weight: bolder;
+}
+
+#clear:hover {
+    background-color: #303538;
+}
+
+.numbers {
+    padding: 10px;
+    padding-right: 21px;
+    padding-left: 21px;
+    background-color: #1e2326;
+    border: none;
+    border: 0.1px solid#303538;
+    color: white;
+}
+
+.numbers:hover {
+    background-color: #303538;
+}
+
+.Operator {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #5e4bb6;
+    border: none;
+    border: 0.1px solid #303538;
+    color: white;
+}
+
+.Operator:hover {
+    background-color: #7161bf;
+}
+
+button {
+    outline: none;
+}
+
+.NumberOpr {
+    display: flex;
+}
+
+.numbersZero {
+    padding: 10px;
+    padding-right: 72px;
+    padding-left: 73px;
+    background-color: #1e2326;
+    border: none;
+    border: 0.1px solid#303538;
+    color: white;
+}
+
+.numbersZero:hover {
+    background-color: #303538;
+}
+
+.numbersOperator {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #5e4bb6;
+    border: none;
+    border: 0.1px solid #303538;
+    color: white;
+}
+
+.numbersOperator:hover {
+    background-color: #7161bf;
+}
+
+.OperatorResult {
+    padding: 10px;
+    padding-right: 50%;
+    padding-left: 50%;
+    background-color: #fec208;
+    border: none;
+    border: 0.1px solid #303538;
+    color: black;
+}
+
+#input-values {
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+#total-output {
+    text-align: end;
+    font-weight: bolder;
+    font-size: 20px;
+    height: 50px;
+}
+
+#total-output:focus {
+    border-color: white !important;
+}
+
+.OperatorResult:hover {
+    background-color: #fcc82a;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <h1 id="heading">Welcome to my calculator</h1>
+
+    <br />
+    <br />
+    <br />
+    <div class="main-cal">
+        <div class="display-input">
+            <input type="text" id="input-values">
+        </div>
+        <div class="display-ouput">
+            <input type="text" id="total-output" value="0">
+        </div>
+
+        <div class="showRowOne">
+            <div>
+                <button type="button" id="clear" onclick="clearText()">C</button>
+            </div>
+            <div class="NumberOpr">
+                <button type="button" class="numbers" onclick="addContentToInput('7')">7</button>
+                <button type="button" class="numbers" onclick="addContentToInput('8')">8</button>
+                <button type="button" class="numbers" onclick="addContentToInput('9')">9</button>
+                <button type="button" class="Operator" onclick="addContentToInput('/')">/</button>
+            </div>
+            <div class="NumberOpr">
+                <button type="button" class="numbers" onclick="addContentToInput('4')">4</button>
+                <button type="button" class="numbers" onclick="addContentToInput('5')">5</button>
+                <button type="button" class="numbers" onclick="addContentToInput('6')">6</button>
+                <button type="button" class="Operator" onclick="addContentToInput('-')">-</button>
+            </div>
+            <div class="NumberOpr">
+                <button type="button" class="numbers" onclick="addContentToInput('1')">1</button>
+                <button type="button" class="numbers" onclick="addContentToInput('2')">2</button>
+                <button type="button" class="numbers" onclick="addContentToInput('3')">3</button>
+                <button type="button" class="Operator" onclick="addContentToInput('+')">+</button>
+            </div>
+            <div class="NumberOpr">
+                <button type="button" class="numbersZero" onclick="addContentToInput('0')">0</button>
+                <button type="button" class="numbersOperator" onclick="addContentToInput('*')">*</button>
+            </div>
+            <div class="DisplayIperator">
+                <button type="button" class="OperatorResult" onclick="result()">=</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+<script src="js/app.js"></script>
+
+</html>
